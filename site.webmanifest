@@ -1,0 +1,25 @@
+{
+  "name": "PXForge Studio",
+  "short_name": "PXForge",
+  "description": "Criação de sites e sistemas web sob medida em Belo Horizonte.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070908",
+  "theme_color": "#060808",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

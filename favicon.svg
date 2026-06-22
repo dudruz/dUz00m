@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PXForge Studio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D1210"/>
+      <stop offset="1" stop-color="#070908"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="55%">
+      <stop offset="0" stop-color="#00FF9C" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00FF9C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="url(#bg)"
+        stroke="#00FF9C" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="url(#glow)"/>
+  <text x="32" y="33" text-anchor="middle" dominant-baseline="central"
+        font-family="'Syne','Arial Black',system-ui,sans-serif" font-weight="800"
+        font-size="34" letter-spacing="-1" fill="#00FF9C">PX</text>
+</svg>
