@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Descontração — Snake &amp; Xadrez | PXForge Studio</title>
+<meta name="description" content="Uma pausa pra jogar: Snake e xadrez (com regras completas), feitos do zero em JavaScript puro pela PXForge Studio. Até a descontração é portfólio."/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<meta name="theme-color" content="#060808"/>
+<meta name="author" content="Eduardo — PXForge Studio"/>
+<link rel="canonical" href="https://pxforgestudio.com.br/descontracao.html"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://pxforgestudio.com.br/descontracao.html"/>
+<meta property="og:title" content="Descontração — Snake &amp; Xadrez | PXForge Studio"/>
+<meta property="og:description" content="Snake e xadrez feitos do zero em JavaScript puro. Uma pausa pra jogar — cortesia da PXForge Studio."/>
+<meta property="og:image" content="https://pxforgestudio.com.br/og-image.jpg"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Descontração — Snake &amp; Xadrez | PXForge Studio"/>
+<meta name="twitter:description" content="Snake e xadrez em JS puro. Uma pausa pra jogar."/>
+<meta name="twitter:image" content="https://pxforgestudio.com.br/og-image.jpg"/>
+
+<link rel="icon" href="/favicon.ico" sizes="any"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=DM+Serif+Display:ital@0;1&family=Syne:wght@600;700;800&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="assets/css/px.css"/>
+</head>
+<body>
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<div id="progress"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">PX<span class="px">Forge</span><span class="studio">Studio</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="index.html#projects">Projetos</a></li>
+    <li><a href="index.html#services">Serviços</a></li>
+    <li><a href="index.html#faq">FAQ</a></li>
+    <li><a href="descontracao.html" class="active">Descontração</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://wa.me/5531998283254" class="nav-cta" target="_blank" rel="noopener">Orçamento</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <a href="index.html" class="mm-link">Início <span>01</span></a>
+  <a href="index.html#projects" class="mm-link">Projetos <span>02</span></a>
+  <a href="index.html#services" class="mm-link">Serviços <span>03</span></a>
+  <a href="index.html#faq" class="mm-link">FAQ <span>04</span></a>
+  <a href="descontracao.html" class="mm-link">Descontração <span>05</span></a>
+  <a href="https://wa.me/5531998283254" class="mm-cta" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.9.9-2.8-.2-.3A8 8 0 1112 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.1-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.4.1.1 1.6 2.5 4 3.4 1.5.6 2 .7 2.7.6.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
+    Falar no WhatsApp
+  </a>
+</div>
+
+<!-- PAGE HERO -->
+<header class="page-hero">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <a href="index.html" class="back-home"><svg viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg> Voltar pro início</a>
+    <span class="eyebrow">Descontração</span>
+    <h1 class="page-h1">Uma pausa<br/>pra <em>jogar.</em></h1>
+    <p class="page-sub">Snake e xadrez — com regras completas — feitos do zero em JavaScript puro, canvas e zero bibliotecas. Aqui até o intervalo pro café virou demonstração de código.</p>
+  </div>
+</header>
+
+<!-- GAMES -->
+<main id="conteudo">
+<section>
+  <div class="wrap">
+    <div class="gtabs reveal" role="tablist" aria-label="Escolha o jogo">
+      <button class="gtab active" role="tab" aria-selected="true" data-target="panel-snake">Snake</button>
+      <button class="gtab" role="tab" aria-selected="false" data-target="panel-chess">Xadrez</button>
+    </div>
+
+    <!-- SNAKE -->
+    <div class="tab-panel active game-shell" id="panel-snake" role="tabpanel">
+      <div class="snake-wrap">
+        <div class="snake-hud">
+          <div class="hud-item"><div class="hud-num" id="snake-score">0</div><div class="hud-lbl">Pontos</div></div>
+          <div class="hud-item"><div class="hud-num" id="snake-high">0</div><div class="hud-lbl">Recorde</div></div>
+        </div>
+        <div class="snake-stage">
+          <canvas id="snake" width="440" height="440" aria-label="Jogo Snake"></canvas>
+          <div class="snake-over" id="snake-over">
+            <div class="o-title">Fim de jogo</div>
+            <div class="o-score" id="snake-over-score"></div>
+            <button class="gbtn primary" id="snake-again">Jogar de novo</button>
+          </div>
+        </div>
+        <div class="snake-controls">
+          <button class="gbtn primary" id="snake-start">Iniciar</button>
+          <button class="gbtn" id="snake-pause">Pausar</button>
+        </div>
+        <div class="dpad" aria-label="Direcional">
+          <button class="du" data-snake-dir="up" aria-label="Cima">&#9650;</button>
+          <button class="dl" data-snake-dir="left" aria-label="Esquerda">&#9664;</button>
+          <button class="dr" data-snake-dir="right" aria-label="Direita">&#9654;</button>
+          <button class="dd" data-snake-dir="down" aria-label="Baixo">&#9660;</button>
+        </div>
+        <p class="game-note">Setas ou WASD pra mover · espaço pausa · no celular, deslize na tela ou use o direcional.</p>
+      </div>
+    </div>
+
+    <!-- XADREZ -->
+    <div class="tab-panel game-shell" id="panel-chess" role="tabpanel">
+      <div class="chess-shell">
+        <div class="chess-main">
+          <div class="chess-board" id="chess-board" role="grid" aria-label="Tabuleiro de xadrez"></div>
+          <div class="promo" id="chess-promo"><div class="promo-box" id="promo-box"></div></div>
+        </div>
+        <div class="chess-side">
+          <div class="chess-status" id="chess-status"></div>
+          <div>
+            <div class="cap-block">Capturadas pelas brancas</div>
+            <div class="cap-row" id="cap-w"></div>
+          </div>
+          <div>
+            <div class="cap-block">Capturadas pelas pretas</div>
+            <div class="cap-row" id="cap-b"></div>
+          </div>
+          <div class="chess-controls">
+            <button class="gbtn primary" id="chess-reset">Reiniciar</button>
+            <button class="gbtn" id="chess-undo">Desfazer</button>
+            <button class="gbtn" id="chess-flip">Virar tabuleiro</button>
+          </div>
+          <p class="chess-hint">Clique numa peça pra ver os lances (ponto = mover, anel = capturar). 2 jogadores no mesmo dispositivo. Regras completas: roque, en passant, promoção, xeque e xeque-mate.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">PX<span class="px">Forge</span><span class="studio">Studio</span></div>
+    <p class="footer-sig">Pixels forjados com precisão. Resultados com propósito.</p>
+    <a href="https://wa.me/5531998283254" class="footer-wpp" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.9.9-2.8-.2-.3A8 8 0 1112 20z"/></svg>
+      +55 31 99828-3254
+    </a>
+  </div>
+</footer>
+
+<a href="https://wa.me/5531998283254" class="float-wpp" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <span class="float-wpp-pulse"></span>
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.9.9-2.8-.2-.3A8 8 0 1112 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.1-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.4.1.1 1.6 2.5 4 3.4 1.5.6 2 .7 2.7.6.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
+</a>
+
+<script src="assets/js/px.js"></script>
+<script src="assets/js/games.js"></script>
+</body>
+</html>
